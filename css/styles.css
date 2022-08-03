@@ -1,0 +1,115 @@
+/* Основний колір тексту #757575 */
+/* Другий колір тексту #212121 */
+/* Третій колір тексту (підвал) rgba(255, 255, 255, 0.6) */
+
+/* Основний колір фона #FFFFFF */
+/* Другий колір фона #F5F4FA */
+/* Третій колір фона (підвал) #2F303A */
+
+/* Акцент #2196F3 */
+/* Кольори Логотипа #2196F3 #000000 */
+
+/* Підкреслення (шапка) #ECECEC */
+/* Колір Рамки #EEEEEE */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #ffffff;
+  --second-bg-color: #f5f4fa;
+  --third-bg-color: #2f303a;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* Стилізація лого в шапці */
+.logo-head {
+  color: var(--accent-color);
+}
+.logo-part-head {
+  color: #000000;
+}
+
+/* Зброс списків */
+.list {
+  list-style: none;
+}
+
+/* стилізація навігації */
+.style-nav a {
+  color: var(--title-text-color);
+}
+.style-nav a:hover,
+.style-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* Стилізація комунікаційних посилань */
+.com-link a {
+  color: var(--primary-text-color);
+}
+.com-link a:hover,
+.com-link a:focus {
+  color: var(--accent-color);
+}
+
+/* Стилізація героя */
+.hero {
+  background-color: var(--third-bg-color);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+}
+.hero-button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* Стилізація заголовків */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Стилізація піідзаголовків */
+.section-subtitle {
+  color: var(--title-text-color);
+}
+
+.empl-name {
+  color: var(--title-text-color);
+}
+
+.position {
+  color: var(--primary-text-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--third-bg-color);
+}
+
+/* Лого в підвалі */
+.logo-foot {
+  color: var(--accent-color);
+}
+.logo-part-foot {
+  color: var(--primary-bg-color);
+}
+
+/* Адреса */
+.add-phys {
+  color: var(--primary-bg-color);
+  background-color: var(--third-bg-color);
+}
+.add-link {
+  color: var(--third-text-color);
+}
