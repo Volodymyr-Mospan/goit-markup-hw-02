@@ -81,15 +81,11 @@ body {
 }
 
 /* Наша команда */
-.team h3 {
-  color: var(--title-text-color);
-}
-
-.team p {
-}
-
 .team {
   background-color: #f5f4fa;
+}
+.team h3 {
+  color: var(--title-text-color);
 }
 
 /* Footer */
@@ -126,4 +122,8 @@ body {
 .button:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+}
+
+.portfolio h2 {
+  color: var(--title-text-color);
 }
