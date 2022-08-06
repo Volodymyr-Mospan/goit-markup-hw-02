@@ -25,7 +25,7 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -41,7 +41,7 @@ body {
 
 .logo {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -159,16 +159,26 @@ footer {
   background-color: var(--third-bg-color);
   font-style: normal;
 }
+.add-phys:hover,
+.add-phys:focus{
+  color: var(--accent-color);
+}
 .add-link {
   color: var(--third-text-color);
   font-style: normal;
 }
+.add-link:hover,
+.add-link:focus {
+  color: var(--accent-color);
+}
+
 
 /* Портфоліо */
 
 /* Фільтр */
 
 .button {
+  cursor: pointer;
   color: var(--accent-color);
   background-color: var(--second-bg-color);
   font-weight: 500;
