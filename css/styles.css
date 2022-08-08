@@ -37,6 +37,11 @@ body {
   list-style: none;
 }
 
+/* Зброс посилань */
+.link {
+  text-decoration: none;
+}
+
 /* Лого в шапці */
 
 .logo {
