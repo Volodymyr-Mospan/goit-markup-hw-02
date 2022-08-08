@@ -44,7 +44,7 @@ body {
 
 /* Лого в шапці */
 
-.logo {
+.logo.link {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -58,29 +58,29 @@ body {
 
 /* Навігація */
 
-.style-nav a {
+.style-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.style-nav a:hover,
-.style-nav a:focus {
+.style-nav .link:hover,
+.style-nav .link:focus {
   color: var(--accent-color);
 }
 
 /* Комунікаційні посилання */
 
-.com-link a {
+.com-link .link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.com-link a:hover,
-.com-link a:focus {
+.com-link .link:hover,
+.com-link .link:focus {
   color: var(--accent-color);
 }
 
@@ -118,7 +118,7 @@ body {
   text-align: center;
 }
 
-/* Наші переваги / Особливості */
+/* Наші переваги (Особливості) */
 
 .features-subtitle {
   color: var(--title-text-color);
@@ -144,39 +144,6 @@ body {
   line-height: 1.19;
   text-align: center;
 }
-
-/* Footer */
-
-footer {
-  background-color: var(--third-bg-color);
-}
-
-/* Лого в підвалі */
-
-.logo-part-foot {
-  color: var(--primary-bg-color);
-}
-
-/* Адреса */
-
-.add-phys {
-  color: var(--primary-bg-color);
-  background-color: var(--third-bg-color);
-  font-style: normal;
-}
-.add-phys:hover,
-.add-phys:focus{
-  color: var(--accent-color);
-}
-.add-link {
-  color: var(--third-text-color);
-  font-style: normal;
-}
-.add-link:hover,
-.add-link:focus {
-  color: var(--accent-color);
-}
-
 
 /* Портфоліо */
 
@@ -207,4 +174,36 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--third-bg-color);
+}
+
+/* Лого в підвалі */
+
+.logo-part-foot {
+  color: var(--primary-bg-color);
+}
+
+/* Адреса */
+
+.phys-address.link {
+  color: var(--primary-bg-color);
+  background-color: var(--third-bg-color);
+  font-style: normal;
+}
+.phys-address.link:hover,
+.phys-address.link:focus {
+  color: var(--accent-color);
+}
+.address.link {
+  color: var(--third-text-color);
+  font-style: normal;
+}
+.address.link:hover,
+.address.link:focus {
+  color: var(--accent-color);
 }
